@@ -56,7 +56,7 @@
             <view class='pictrue'><image src='/images/money.png'></image></view>
          </navigator>
       </view>
-      <view class='list'>
+      <!-- <view class='list'>
          <view class='item acea-row row-between-wrapper'>
             <view class='picTxt acea-row row-between-wrapper'>
                <view class='iconfont icon-hebingxingzhuang'></view>
@@ -90,7 +90,7 @@
             <navigator hover-class='none' url='/pages/activity/goods_bargain/index' class='bnt' wx:if="{{activity.is_bargin}}">立即参与</navigator>
             <view class='bnt end' wx:else>已结束</view>
          </view>
-      </view>
+      </view> -->
    </view>
    <recommend host_product="{{host_product}}"></recommend>
 </view>

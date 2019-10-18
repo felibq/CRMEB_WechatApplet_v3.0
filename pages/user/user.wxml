@@ -91,7 +91,7 @@
          </view>
       </view>
    </view>
-   <image src='/images/support.png' class='support'></image>
+   <!-- <image src='/images/support.png' class='support'></image> -->
 </view> 
 
 <authorize bind:onLoadFun='onLoadFun' isGoIndex='{{isGoIndex}}' iShidden="{{iShidden}}"></authorize>

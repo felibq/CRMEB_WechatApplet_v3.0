@@ -86,7 +86,8 @@ Page({
         likeInfo: res.data.likeInfo,
         lovelyBanner: res.data.info,
         benefit: res.data.benefit,
-        logoUrl: res.data.logoUrl,
+        // logoUrl: res.data.logoUrl,
+        logoUrl: '/images/logo.png',
         couponList: res.data.couponList,
       });
       wx.getSetting({
